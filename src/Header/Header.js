@@ -1,28 +1,29 @@
+import Headerleft from "./Headerleft"
+import Headerright from './Headerright'
+
 const Header = () => {
     return (
         <>
-        <div className='container'>
-        <div className='row'>
-            
-            <div className='col-7 '>
-                <div className='center'>
-                <h1 className='text-center '>Hello,I am <span className='text-danger'> Samuel Pokharel</span> </h1>
-                <h2 >Front-End Developer</h2>
-                </div>
-                </div>
+       
+       
         
-        <div className='col-5 '>
-        <div>
-        <img src='https://preview.colorlib.com/theme/satner/img/banner/home-right.png' 
-        alt='headerImage' className='imgStyle' />
-        </div>
-        </div>
-        
-        </div>
+       <div style={{height:'50vh'}}>
+           <div className='container'>
+               <div className='row'>
+               <div className='col-7'>
+               <Headerleft name='Sameer Pokharel' job='Front-End Developer' />
+               </div>
+               <div className='col-5'>
+               <Headerright />
+               </div>
+               </div>
+           </div>
+      
+       </div>
             
             
             
-            </div> 
+            
       
       
       
